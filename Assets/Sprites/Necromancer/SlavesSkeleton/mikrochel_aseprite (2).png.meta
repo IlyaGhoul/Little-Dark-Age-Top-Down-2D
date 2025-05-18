@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: daa4a4c474b81a749b867ed494c3607c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 49
+        height: 63
+      alignment: 9
+      pivot: {x: 0.49754536, y: 0.051301986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8147e7e4f3ade2242ac5c28a7d7af1a6
+      internalID: 1809257330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 475
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.50445557, y: 0.07270335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033be65461e53a04f997af41f7730a12
+      internalID: -1077433086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 475
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49331748, y: 0.07211391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9fa472e562a0e4d85153430bb3905f
+      internalID: -354433591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 473
+        width: 56
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4849641, y: 0.10681562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b9da0315677f4aab4b7c506c6eaf8
+      internalID: -1392804860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 474
+        width: 57
+        height: 67
+      alignment: 9
+      pivot: {x: 0.49577948, y: 0.08886218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dea1900980701448f7c01eef2140e7
+      internalID: -1652620392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 53
+        height: 67
+      alignment: 9
+      pivot: {x: 0.50907874, y: 0.026024206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2a669c6cbe8148b326e0c207cb54b
+      internalID: 487691854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 384
+        width: 49
+        height: 67
+      alignment: 9
+      pivot: {x: 0.546643, y: 0.015251957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be01539c16bde174bab81b47346fe9c1
+      internalID: 1388264890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 384
+        width: 50
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4951886, y: 0.017047483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e804c0dab561449b1170484aa81405
+      internalID: 528437362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 383
+        width: 51
+        height: 69
+      alignment: 9
+      pivot: {x: 0.56368303, y: 0.02407262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a8e55275b02c242bab4b1ab0ca9937
+      internalID: -1808907938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 382
+        width: 56
+        height: 69
+      alignment: 9
+      pivot: {x: 0.51288825, y: 0.036276113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b61e6ce2e4475498a218febb135636
+      internalID: -866886026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 76
+        width: 68
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5496404, y: 0.0757672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bb62de49136ce46b9391aa2d72bac4
+      internalID: -584549327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mikrochel_aseprite (2)_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 74
+        width: 79
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5591624, y: 0.10339617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6330f762432c43e448400cddb661789d
+      internalID: -420911195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28036d99b148d1f4ba234645b008334b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mikrochel_aseprite (2)_0: 1809257330
+      mikrochel_aseprite (2)_1: -1077433086
+      mikrochel_aseprite (2)_10: -584549327
+      mikrochel_aseprite (2)_11: -420911195
+      mikrochel_aseprite (2)_2: -354433591
+      mikrochel_aseprite (2)_3: -1392804860
+      mikrochel_aseprite (2)_4: -1652620392
+      mikrochel_aseprite (2)_5: 487691854
+      mikrochel_aseprite (2)_6: 1388264890
+      mikrochel_aseprite (2)_7: 528437362
+      mikrochel_aseprite (2)_8: -1808907938
+      mikrochel_aseprite (2)_9: -866886026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b28aff19135be846b942a141a874cf9, type: 3}
+  m_Name: Presset_AttackForward
+  m_EditorClassIdentifier: 
+  AnimationName: AttackForward
+  ColliderPoints:
+  - {x: -0.0766882, y: -0.9578085}
+  - {x: -0.27082562, y: -0.6196742}
+  - {x: -0.03548207, y: 0.28937742}
+  - {x: 0.16411869, y: 0.45874143}
+  - {x: 0.2486035, y: 0.13634002}

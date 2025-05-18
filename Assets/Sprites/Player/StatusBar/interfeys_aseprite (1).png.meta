@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: d9be260304e40b840804518a2e3a03c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae193dee76a0cd44c8b9bf4c6fd2ecfe
+      internalID: -252980193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cea9ded2dcb4e428a10e86f63f828b
+      internalID: 1932564258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c2d6c9ecb5b2b4caf38f2e9e721a59
+      internalID: 488494292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22d3947d2b62547bb6928c2b5cb195
+      internalID: -154519251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de104554f64ad2641aab9000a0e3c326
+      internalID: 1223129929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1854a25672bb189439c68c781827e5ac
+      internalID: -2051031044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f342f7b5e7dadd049826df0890de3d16
+      internalID: 1959154409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2930c5de67fe7a540a978fa877fb56b3
+      internalID: 1287873323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6745e7a26c4254ebd079dbeefa09c1
+      internalID: 18050581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d959e31f21e704b8df526d678d5ee6
+      internalID: 677420848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccbf17ce72ff77459780a8928dc2764
+      internalID: -219296805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047c564a992acc94baba178ad4218782
+      internalID: -1936711653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_15
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818fcbe2130e65742ac57a4b0cb69029
+      internalID: -1738493141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interfeys_aseprite (1)_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1043
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54134069c8e9d2c49b1959131b22b588
+      internalID: -1673859231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28036d99b148d1f4ba234645b008334b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      interfeys_aseprite (1)_0: -252980193
+      interfeys_aseprite (1)_1: 1333090351
+      interfeys_aseprite (1)_10: 462494422
+      interfeys_aseprite (1)_11: 677420848
+      interfeys_aseprite (1)_12: -219296805
+      interfeys_aseprite (1)_13: -1936711653
+      interfeys_aseprite (1)_14: -227797933
+      interfeys_aseprite (1)_15: -1738493141
+      interfeys_aseprite (1)_16: -174531320
+      interfeys_aseprite (1)_17: 477203921
+      interfeys_aseprite (1)_18: 898781189
+      interfeys_aseprite (1)_19: -292948741
+      interfeys_aseprite (1)_2: 1932564258
+      interfeys_aseprite (1)_20: 1877666
+      interfeys_aseprite (1)_21: 689206981
+      interfeys_aseprite (1)_22: -972717127
+      interfeys_aseprite (1)_23: -1116297899
+      interfeys_aseprite (1)_24: -488491433
+      interfeys_aseprite (1)_25: -616553985
+      interfeys_aseprite (1)_26: -1319116188
+      interfeys_aseprite (1)_27: 1152159893
+      interfeys_aseprite (1)_28: -1534933224
+      interfeys_aseprite (1)_29: -766763758
+      interfeys_aseprite (1)_3: 488494292
+      interfeys_aseprite (1)_30: 1723536183
+      interfeys_aseprite (1)_31: 1553277799
+      interfeys_aseprite (1)_32: -1464032854
+      interfeys_aseprite (1)_33: -741697671
+      interfeys_aseprite (1)_34: 933022981
+      interfeys_aseprite (1)_35: 1870857982
+      interfeys_aseprite (1)_36: -2087329608
+      interfeys_aseprite (1)_37: 1416432288
+      interfeys_aseprite (1)_38: 574505602
+      interfeys_aseprite (1)_39: -1673859231
+      interfeys_aseprite (1)_4: -154519251
+      interfeys_aseprite (1)_40: 35667093
+      interfeys_aseprite (1)_41: 1705507060
+      interfeys_aseprite (1)_42: 265897037
+      interfeys_aseprite (1)_5: 1223129929
+      interfeys_aseprite (1)_6: -2051031044
+      interfeys_aseprite (1)_7: 1959154409
+      interfeys_aseprite (1)_8: 1287873323
+      interfeys_aseprite (1)_9: 18050581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

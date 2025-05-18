@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 0dcb0c4f3dd13d54087c004d030ff031
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttackForwardBack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.4697155, y: 0.06716575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcd88da525e5124fa7d7fcdc63e726a
+      internalID: 1944500324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 479
+        width: 59
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4672774, y: 0.06707116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638b068a6f214d74fa1f407a1f18ec82
+      internalID: -1440650710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 477
+        width: 50
+        height: 67
+      alignment: 9
+      pivot: {x: 0.44594237, y: 0.1167557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abe011bcb68baa499c1ec58f56daf03
+      internalID: 272656834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 478
+        width: 42
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4724201, y: 0.08217746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e7994dfc9606f4e86a8fa0633d6668
+      internalID: -1548809570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 477
+        width: 45
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50858086, y: 0.10251752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbf1258d52d2424b94aeb27e53b4814
+      internalID: -1544903461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 478
+        width: 53
+        height: 66
+      alignment: 9
+      pivot: {x: 0.36157745, y: 0.11094943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4725d131a5ffa143a27c89d604b8a0e
+      internalID: 748560823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 478
+        width: 45
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4013238, y: 0.096323185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a720d13e02c3c8e42a6b02b64743d4b4
+      internalID: 790908892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 477
+        width: 45
+        height: 67
+      alignment: 9
+      pivot: {x: 0.41419542, y: 0.096584946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dd52edaefbefb4ca52867acf05be85
+      internalID: 2027733382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 479
+        width: 45
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5171617, y: 0.066308066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304a6832fea14ae40a561c52794af271
+      internalID: -1023251201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 478
+        width: 36
+        height: 72
+      alignment: 9
+      pivot: {x: 0.44637215, y: 0.08169683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a06888c27fe8409a6d86ace340cd2
+      internalID: -1054349998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 478
+        width: 38
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5050804, y: 0.08437856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e0d2e14ff16b84b9bd1ee4554b9a5b
+      internalID: 1854009387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 336
+        width: 44
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5124154, y: 0.030970255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f37e04e41cfc5448a3982058f042df
+      internalID: -33270494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 334
+        width: 45
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4180035, y: 0.069835715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b1ea0707421374a8de08f6eb9ce3f7
+      internalID: -1402411564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.466391, y: 0.08185011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a30a34477bd25479d2e0520e580f10
+      internalID: 1907311062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 413
+        width: 58
+        height: 62
+      alignment: 9
+      pivot: {x: 0.46675295, y: 0.04383653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3bf00a0d3c59409bedf27bcfb0ce0
+      internalID: 365568448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 409
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4635305, y: 0.10719253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440f52035c43dad4da750428a718dd1b
+      internalID: 828989418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 408
+        width: 49
+        height: 68
+      alignment: 9
+      pivot: {x: 0.4737639, y: 0.11244426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f5e3ca6f657af42aa86aebd293f4a6
+      internalID: -715775410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_17
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 411
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4444505, y: 0.05773878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8714ad0ac621fb408c8456d94f06fe8
+      internalID: 487237525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 336
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4678608, y: 0.038520224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a6cb447c1b714dafb34a23a873808
+      internalID: 1614992191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_19
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 335
+        width: 50
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4614331, y: 0.0457723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedba97ff760b2e42b79160e417a0067
+      internalID: -1115843665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_20
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 334
+        width: 54
+        height: 72
+      alignment: 9
+      pivot: {x: 0.47090885, y: 0.04908583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d865eadf0552943802858d033c806d
+      internalID: -52913832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 334
+        width: 50
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5654553, y: 0.03999498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad44590373a5c5440835a1f635791165
+      internalID: 240307646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 332
+        width: 48
+        height: 72
+      alignment: 9
+      pivot: {x: 0.53272754, y: 0.08181339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebb0c1b39626db4b8b1db07c2ace44f
+      internalID: -1784908511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackForwardBack_23
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 332
+        width: 47
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4192258, y: 0.07678223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ff24e552f66e49992e41e619ab152
+      internalID: -229201616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28036d99b148d1f4ba234645b008334b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AttackForwardBack_0: 1944500324
+      AttackForwardBack_1: -1440650710
+      AttackForwardBack_10: 1854009387
+      AttackForwardBack_11: -33270494
+      AttackForwardBack_12: -1402411564
+      AttackForwardBack_13: 1907311062
+      AttackForwardBack_14: 365568448
+      AttackForwardBack_15: 828989418
+      AttackForwardBack_16: -715775410
+      AttackForwardBack_17: 487237525
+      AttackForwardBack_18: 1614992191
+      AttackForwardBack_19: -1115843665
+      AttackForwardBack_2: 272656834
+      AttackForwardBack_20: -52913832
+      AttackForwardBack_21: 240307646
+      AttackForwardBack_22: -1784908511
+      AttackForwardBack_23: -229201616
+      AttackForwardBack_3: -1548809570
+      AttackForwardBack_4: -1544903461
+      AttackForwardBack_5: 748560823
+      AttackForwardBack_6: 790908892
+      AttackForwardBack_7: 2027733382
+      AttackForwardBack_8: -1023251201
+      AttackForwardBack_9: -1054349998
+      derevya_0: 4448806816535313819
+      derevya_1: 1744539471207119337
+      derevya_10: -1225366798176221831
+      derevya_11: -965116581719796077
+      derevya_12: -447650424
+      derevya_13: -91461521
+      derevya_14: 1294881369
+      derevya_15: -1992480782
+      derevya_16: -2128366582
+      derevya_17: 564827043
+      derevya_18: 239433354
+      derevya_19: 129231485
+      derevya_2: -6333117628373065005
+      derevya_20: -96265857
+      derevya_3: -2909591421735928857
+      derevya_4: 1205886197668698736
+      derevya_5: 3406173005718020698
+      derevya_6: 3217299481020049037
+      derevya_7: -2062657024740742596
+      derevya_8: -3791162835441633403
+      derevya_9: -603094896235923328
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b28aff19135be846b942a141a874cf9, type: 3}
+  m_Name: Preset_AttackRight
+  m_EditorClassIdentifier: 
+  AnimationName: AttackRight
+  ColliderPoints:
+  - {x: 1.8548709, y: 1.5491767}
+  - {x: 0.62800705, y: 1.5611521}
+  - {x: 0.53362614, y: 3.7529287}
+  - {x: 1.0187306, y: 3.4606295}
+  - {x: 1.26319, y: 3.235739}
+  - {x: 1.4406799, y: 2.9886832}
+  - {x: 1.9772778, y: 1.8581219}

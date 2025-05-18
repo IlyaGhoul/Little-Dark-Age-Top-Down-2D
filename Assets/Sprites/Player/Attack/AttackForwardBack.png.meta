@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: e11d0abff57c44f43ace7d1e6aa0b03a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 52
+        height: 72
+      alignment: 9
+      pivot: {x: 0.44818625, y: 0.099595815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecea2b3ec7e1744785b30bc314efec7
+      internalID: -857210400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 475
+        width: 61
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5265014, y: 0.14568006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e310dc40f324441bca1e94a0153e86
+      internalID: -1725897331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 476
+        width: 48
+        height: 73
+      alignment: 9
+      pivot: {x: 0.52245235, y: 0.1419891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9a4067f1318214ea980d5853d2ab00
+      internalID: -1884792979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 476
+        width: 42
+        height: 73
+      alignment: 9
+      pivot: {x: 0.55132, y: 0.16044304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a8b2d457748ca4b80bbbae0a30a810
+      internalID: -314348313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 477
+        width: 50
+        height: 73
+      alignment: 9
+      pivot: {x: 0.58621734, y: 0.14937058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67faf57f9fe7a6a4ea50398572582828
+      internalID: 1703407702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 477
+        width: 42
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4743398, y: 0.12353474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02647f407ed523741943292e041f6c57
+      internalID: -1124469950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 476
+        width: 48
+        height: 75
+      alignment: 9
+      pivot: {x: 0.578584, y: 0.11920451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0997f8c4240636e429575cf169c8f05c
+      internalID: 364200078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 475
+        width: 45
+        height: 77
+      alignment: 9
+      pivot: {x: 0.53592396, y: 0.13609333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49656517b4147244d8d263b1ec1a3b0a
+      internalID: 1799584760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 475
+        width: 49
+        height: 79
+      alignment: 9
+      pivot: {x: 0.60447353, y: 0.124843165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca535fa6cdcc02947bd43c3012d4a796
+      internalID: 405568970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_9
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 475
+        width: 40
+        height: 79
+      alignment: 9
+      pivot: {x: 0.49326247, y: 0.13166404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b458a8743d3a70e4cb6c066a5badd052
+      internalID: 1162079141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 476
+        width: 41
+        height: 79
+      alignment: 9
+      pivot: {x: 0.49342903, y: 0.13507466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7b9bf168b0037478cfa71ca17af88f
+      internalID: -1872865961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 48
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5214538, y: 0.08111055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac44050b1f0ca040a827a2f1bce12db
+      internalID: -193221453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 411
+        width: 56
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5597636, y: 0.14970973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a84351cb98e65a4cb67c20ab993cb5c
+      internalID: -2137021198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 412
+        width: 48
+        height: 60
+      alignment: 9
+      pivot: {x: 0.526817, y: 0.10954539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0491229d3df2c79419d9a9a457af7c74
+      internalID: 1148919643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 410
+        width: 44
+        height: 62
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.11383598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddf95293aa225244bae5db98ec3c949
+      internalID: 609940956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 412
+        width: 53
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4708557, y: 0.079510495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a0cd9c01d6a504e87c3dbea64ea396
+      internalID: 1471063326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 56
+        height: 71
+      alignment: 9
+      pivot: {x: 0.49080572, y: 0.083015546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7113a07ae715d41a723e73e912d3fe
+      internalID: 549740112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 335
+        width: 39
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.05326125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034a62474c0b983459a8f885117cf175
+      internalID: 948603500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 335
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4623257, y: 0.039723713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256fa9a847946c04bbccdb5a9d0ce905
+      internalID: 774350336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 332
+        width: 53
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5075626, y: 0.08875542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d8f0278cf66c4b8db33f8c2642318
+      internalID: 1061392388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_20
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 327
+        width: 49
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5245399, y: 0.14560458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc093b2597448c4291a5661a8ef018b
+      internalID: 1299355156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 330
+        width: 55
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5327948, y: 0.094092645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18505213bd3ab2041a4b2510a7efee6d
+      internalID: 925480841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_22
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 327
+        width: 46
+        height: 83
+      alignment: 9
+      pivot: {x: 0.53485376, y: 0.13105115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef537bf7075d8d4295cbcd03b195b3d
+      internalID: -1570983314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gg_aseprite (13)4_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 328
+        width: 60
+        height: 85
+      alignment: 9
+      pivot: {x: 0.4411036, y: 0.13173613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a319630dfd8cd4297d64a6fcfada23
+      internalID: -499669643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28036d99b148d1f4ba234645b008334b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gg_aseprite (13)4_0: -857210400
+      gg_aseprite (13)4_1: -1725897331
+      gg_aseprite (13)4_10: -1872865961
+      gg_aseprite (13)4_11: -193221453
+      gg_aseprite (13)4_12: -2137021198
+      gg_aseprite (13)4_13: 1148919643
+      gg_aseprite (13)4_14: 609940956
+      gg_aseprite (13)4_15: 1471063326
+      gg_aseprite (13)4_16: 549740112
+      gg_aseprite (13)4_17: 948603500
+      gg_aseprite (13)4_18: 774350336
+      gg_aseprite (13)4_19: 1061392388
+      gg_aseprite (13)4_2: -1884792979
+      gg_aseprite (13)4_20: 1299355156
+      gg_aseprite (13)4_21: 925480841
+      gg_aseprite (13)4_22: -1570983314
+      gg_aseprite (13)4_23: -499669643
+      gg_aseprite (13)4_3: -314348313
+      gg_aseprite (13)4_4: 1703407702
+      gg_aseprite (13)4_5: -1124469950
+      gg_aseprite (13)4_6: 364200078
+      gg_aseprite (13)4_7: 1799584760
+      gg_aseprite (13)4_8: 405568970
+      gg_aseprite (13)4_9: 1162079141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

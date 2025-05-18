@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b28aff19135be846b942a141a874cf9, type: 3}
+  m_Name: Presset_AttackBack
+  m_EditorClassIdentifier: 
+  AnimationName: AttackBack
+  ColliderPoints:
+  - {x: -0.27946883, y: 4.0029716}
+  - {x: 0.15951735, y: 3.69059}
+  - {x: 0.39046156, y: 1.968273}
+  - {x: 0.13056031, y: 1.1114185}
+  - {x: 0.091740645, y: 1.6497401}
