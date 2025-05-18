@@ -15,7 +15,7 @@ Unexpected threats — traps, invisible enemies and events that will test your e
 
 Do you dare to challenge the darkness?
 
-![First]((https://github.com/user-attachments/assets/811f8e49-782e-4eb4-9975-1b3153979866)
+![First](https://github.com/user-attachments/assets/811f8e49-782e-4eb4-9975-1b3153979866)
 
 ![Second](https://github.com/user-attachments/assets/3c9128ad-a6c5-4b22-b8d6-f838e2eddd77)
 
