@@ -15,13 +15,14 @@ Unexpected threats — traps, invisible enemies and events that will test your e
 
 Do you dare to challenge the darkness?
 
-![First](https://github.com/IlyaGhoul/Little-dark-age-Top-Down-2D/blob/main/Presentation/3.png)
+![First]((https://github.com/user-attachments/assets/811f8e49-782e-4eb4-9975-1b3153979866)
 
-![Second](https://github.com/IlyaGhoul/Little-dark-age-Top-Down-2D/blob/main/Presentation/1.png)
+![Second](https://github.com/user-attachments/assets/3c9128ad-a6c5-4b22-b8d6-f838e2eddd77)
 
-![Third](https://github.com/user-attachments/assets/63b3e611-e8ba-43db-8c8d-78cd13588596)
+![Third](https://github.com/user-attachments/assets/5a22f183-c808-4438-8f07-4124423d4f2c)
 
-![Fourth](https://github.com/IlyaGhoul/Little-dark-age-Top-Down-2D/blob/main/Presentation/4.png)
+![Fourth](https://github.com/user-attachments/assets/c2ba81f7-d005-47f9-a1a9-c08ad6ac83c3)
+
 
 ## 🖥️ System requirements
 
