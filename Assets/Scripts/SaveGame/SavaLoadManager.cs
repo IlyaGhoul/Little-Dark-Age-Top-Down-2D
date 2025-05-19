@@ -11,7 +11,7 @@ using System.Collections.Generic;
 
 public class SaveLoadManager : MonoBehaviour
 {
-    private static string _saveFolder = Path.Combine("D:/StudioGame/W/SAVE");
+    private static string _saveFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Little dark age");
 
     private static string _savePath => Path.Combine(_saveFolder, "gamesave.json");
 
@@ -38,6 +38,8 @@ public class SaveLoadManager : MonoBehaviour
         {
             Debug.Log($"Зарегистрирован враг ID: {pair.Key}, Объект: {pair.Value.name}");
         }
+
+        GameSaveData saveData = new GameSaveData();
     }
 
     public void RegisterEnemyUnit(Unit unit)
@@ -69,6 +71,13 @@ public class SaveLoadManager : MonoBehaviour
 
     public static void SaveGame()
     {
+        // Если файла сохранения нет - создаем новое сохранение
+        if (!File.Exists(_savePath))
+        {
+            CreateNewSave();
+            return;
+        }
+
         Player player = Player.Instance;
         GameSaveData saveData = new GameSaveData();  
         
@@ -79,14 +88,6 @@ public class SaveLoadManager : MonoBehaviour
 
         // инвентарь
         saveData.inventoryData = InventoryManager.Instance.GetSaveData();
-
-        // преследуюущий скелет
-
-        //EnemySO enemySO = new EnemySO();
-        //if (EnemyAI.Instance.shouldBeSaved)
-        //{
-        //    saveData.HealthEnemy = enemySO.enemyMaxHealth;
-        //}
 
         Debug.Log($"Сохранение врагов. Количество: {Instance._enemyUnits.Count}");
 
@@ -99,13 +100,15 @@ public class SaveLoadManager : MonoBehaviour
                 var enemyData = new EnemySaveData
                 {
                     EnemyId = enemyPair.Key,
-                    Health = enemyPair.Value.CurrentHealth,
+                    Health = enemyPair.Value.MaxHealth,
+                    MaxHealth = enemyPair.Value.MaxHealth,
                 };
                 saveData.EnemiesData.Add(enemyData);
                 Debug.Log(enemyData);
             }
         }
 
+        saveData.FirstSave = false;
 
         string json = JsonUtility.ToJson(saveData, true);
         File.WriteAllText(_savePath, json);
@@ -118,8 +121,8 @@ public class SaveLoadManager : MonoBehaviour
     {
         if (!File.Exists(_savePath))
         {
-            Debug.Log("Файл сохранения не найден");
-            return false;
+            Debug.Log("Файл сохранения не найден. Создаем новое сохранение...");
+            CreateNewSave();
         }
 
         // Загружаем данные
@@ -153,16 +156,6 @@ public class SaveLoadManager : MonoBehaviour
         // Загружаем инвентарь
         InventoryManager.Instance.LoadSaveData(saveData.inventoryData);
 
-        // преследуюущий скелет
-
-        //if (EnemyAI.Instance.shouldBeSaved)
-        //{
-        //    WeakWarrior weakWarrior = new WeakWarrior();
-        //    weakWarrior.CurrentHealth = saveData.HealthEnemy;
-        //    EnemyAI.Instance.transform.position = new Vector2(14, 4);
-        //}
-
-
         // Восстанавливаем врагов
         if (saveData.EnemiesData != null)
         {
@@ -172,22 +165,24 @@ public class SaveLoadManager : MonoBehaviour
                 {
                     Debug.Log(enemyData.EnemyId);
 
+                    unit.CurrentHealth = saveData.MaxHealth;
+
                     // Особые условия для врага с ID "1"
                     if (enemyData.EnemyId == "1")
-                    {
-                        unit.CurrentHealth = unit.EnemySO.enemyMaxHealth;
+                    {                     
                         unit.transform.position = new Vector3(14f, 4f, 0f); // Пример координат
                         unit.DetectLive();
 
-                        SlaveSkeletonVisual.Instance.IsDeath = false;
+                        try
+                        {
+                            SlaveSkeletonVisual.Instance.IsDeath = false;
+                        }
+                        catch 
+                        {
+                            Debug.Log("First Save (maybe will be fixed)");
+                        }
                     }
-                    else
-                    {
-                        // Обычная загрузка для других врагов
-                        unit.CurrentHealth = enemyData.Health;
-                    }
-
-                    
+                                    
                 }
                 else
                 {
@@ -196,7 +191,53 @@ public class SaveLoadManager : MonoBehaviour
             }
         }
 
+        
+        GameManager.Instance.FirstSave = saveData.FirstSave;
         Debug.Log("Сохранение загружено!");
         return true;
+    }
+
+    // Метод для создания нового сохранения
+    private static void CreateNewSave()
+    {
+        // Создаем папку для сохранений, если ее нет
+        if (!Directory.Exists(_saveFolder))
+        {
+            Directory.CreateDirectory(_saveFolder);
+        }
+
+        GameSaveData newSave = new GameSaveData()
+        {
+            // Устанавливаем значения по умолчанию
+            PlayerPosition = new Vector3(-3.5f, -0.5f, 0f),
+            Health = 20,
+            MaxHealth = 20,
+            inventoryData = new InventorySaveData(), // или InventoryManager.CreateDefaultInventory()
+            FirstSave = true
+        };
+
+        // Сохраняем врагов
+        newSave.EnemiesData = new List<EnemySaveData>();
+        foreach (var enemyPair in Instance._enemyUnits)
+        {
+            if (enemyPair.Value != null)
+            {
+                var enemyData = new EnemySaveData
+                {
+                    EnemyId = enemyPair.Key,
+                    Health = enemyPair.Value.MaxHealth,
+                    MaxHealth = enemyPair.Value.MaxHealth,
+                    Position = enemyPair.Value.transform.position,
+                };
+                newSave.EnemiesData.Add(enemyData);
+                Debug.Log(enemyData);
+            }
+        }
+
+
+        string json = JsonUtility.ToJson(newSave, true);
+        File.WriteAllText(_savePath, json);
+
+        Debug.Log("Создано новое сохранение по умолчанию");
     }
 }

@@ -25,6 +25,9 @@ public class GameSaveData
 
     public List<EnemySaveData> EnemiesData;
 
+    // первое сохранение
+    public bool FirstSave;
+
 }
 
 [System.Serializable]
@@ -49,6 +52,7 @@ public class EnemySaveData
 {
     public string EnemyId;  
     public int Health;
+    public int MaxHealth;
     public Vector3 Position;
     public bool IsDefeated;
 }

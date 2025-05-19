@@ -19,6 +19,7 @@ namespace Examples.AbstractFactoryExample.Unit
         public bool IsDefeated => _isDefeated;
 
         private int _currentHealth;
+        private int _maxHealth;
         private int _damageAmount;
         private bool _isDefeated;
 
@@ -39,6 +40,12 @@ namespace Examples.AbstractFactoryExample.Unit
         {
             get { return _currentHealth; }
             set { _currentHealth = value; }
+        }
+
+        public int MaxHealth
+        {
+            get { return _maxHealth; }
+            set { _maxHealth = value; }
         }
 
         private void Awake()
@@ -100,6 +107,7 @@ namespace Examples.AbstractFactoryExample.Unit
         {
             _currentHealth = _enemySO.enemyHealth;
             _damageAmount = _enemySO.enemyDamageAmount;
+            _maxHealth = _enemySO.enemyMaxHealth;
         }
 
         // для реализации сохранения врагов возможно
@@ -155,7 +163,6 @@ namespace Examples.AbstractFactoryExample.Unit
 
         private void CachePaths()
         {
-            Debug.Log(_polygonCollider2D.pathCount);
             _originalPaths = new Vector2[_polygonCollider2D.pathCount][];
             _mirroredPaths = new Vector2[_polygonCollider2D.pathCount][];
 
@@ -197,9 +204,10 @@ namespace Examples.AbstractFactoryExample.Unit
             _capsuleCollider2D.enabled = true;
 
             _isDefeated = false;
-               
 
             EnemyAI.Instance.SetNewLive();
+ 
+
         }
 
         private void OnTriggerEnter2D(Collider2D collision)

@@ -192,7 +192,6 @@ public class InventoryManager : MonoBehaviour
     {
         if (_itemDictionary == null || _itemDictionary.Count == 0)
         {
-
             InitializeItemDictionary(); // Повторная инициализация
         }
 

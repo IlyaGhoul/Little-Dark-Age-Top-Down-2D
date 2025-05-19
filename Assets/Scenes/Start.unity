@@ -328,6 +328,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1586277026}
+  - {fileID: 211405904}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &154790470
@@ -356,6 +357,7 @@ GameObject:
   - component: {fileID: 211405903}
   - component: {fileID: 211405902}
   - component: {fileID: 211405901}
+  - component: {fileID: 211405905}
   m_Layer: 5
   m_Name: LoodingScreen
   m_TagString: Untagged
@@ -440,13 +442,25 @@ RectTransform:
   m_Children:
   - {fileID: 339879180}
   - {fileID: 52243019}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 154790469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &211405905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211405900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1449abf34640f84fb81ec26fda34786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &284783007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,5 +2306,4 @@ SceneRoots:
   - {fileID: 1069280972}
   - {fileID: 886015632}
   - {fileID: 154790469}
-  - {fileID: 211405904}
   - {fileID: 1444186182}

@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         StartCoroutine(LoadGameAfterSceneLoad());
+        
     }
 
     public void ExitGame()
@@ -23,8 +24,10 @@ public class MainMenu : MonoBehaviour
 
     private IEnumerator LoadGameAfterSceneLoad()
     {
+        _loadingScreen.SetActive(true);
+
         AsyncOperation locationAfterSceneLoad = SceneManager.LoadSceneAsync(1);
-        locationAfterSceneLoad.allowSceneActivation = false; 
+        locationAfterSceneLoad.allowSceneActivation = false;
 
         // ∆дЄм, пока сцена загрузитс€ на 90% 
         while (locationAfterSceneLoad.progress < 0.9f)
@@ -34,9 +37,16 @@ public class MainMenu : MonoBehaviour
             yield return null;
         }
 
-        locationAfterSceneLoad.allowSceneActivation = true; 
+        locationAfterSceneLoad.allowSceneActivation = true;
 
-        yield return null;
+        // ∆дЄм завершени€ загрузки сцены
+        while (!locationAfterSceneLoad.isDone)
+        {
+            yield return null;
+        }
 
+        
+
+        _loadingScreen.SetActive(false);
     }
 }
