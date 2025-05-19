@@ -24,7 +24,9 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
     }
+
 
     public void GameOver()
     {
@@ -34,22 +36,26 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void StartCutsceneIfFirstScene()
+    {
+        if (FirstSave)
+        {
+            StartCutscne.Instance.StartCutScene();
+        }
+        _localAtive.SetActive(true);
+
+    }
+
     private void LoadGameLastSave()
     {
         PreparingToLoadLastSave();
 
         _animatorPlayerVisual.Rebind(); // Сбросит все анимации и параметры
         _animatorPlayerVisual.Update(0f); // Принудительное обновление
-        
+
         SaveLoadManager.LoadGame();
 
-        if (_firstSave)
-        {  
-            StartCutscne.Instance.StartCutScene();
-            _localAtive.SetActive(true);
-        }
-
-
+        StartCutsceneIfFirstScene();
     }
 
     private void FadeInAfterRespawn()
@@ -68,4 +74,6 @@ public class GameManager : MonoBehaviour
 
         FadeInAfterRespawn();
     }
+
+
 }

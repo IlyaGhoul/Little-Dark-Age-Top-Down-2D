@@ -12,7 +12,6 @@ public class CheakPoint : MonoBehaviour
         {
             PlayerSounds.Instance.PlayUseCheckPoint();
             SaveLoadManager.SaveGame();
-            
 
             _gameManager.FirstSave = false;
 

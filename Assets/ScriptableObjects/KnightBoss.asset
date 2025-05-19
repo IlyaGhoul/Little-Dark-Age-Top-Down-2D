@@ -15,5 +15,5 @@ MonoBehaviour:
   enemyID: 2
   enemyName: KnightBoss
   enemyHealth: 30
-  enemyMaxHealth: 10
+  enemyMaxHealth: 30
   enemyDamageAmount: 10
